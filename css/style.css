@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+}
+header{
+background: rgb(50, 179, 230);
+/* overflow: hidden; */
+height: 60px;
+}
+.logo{
+float: left;
+padding: 15px 0px 0px 50px;
+color: white;
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+overflow: hidden;
+}
+.line1{
+width: 1px;
+height: 65px;
+background: white;
+}
+.w-icon img{
+width:30px;
+}
+.menu ul{
+float: right; 
+/* overflow: hidden; */
+/* margin: 0px 50px -10px 0px; */
+}
+.menu ul li{
+display: inline-block;
+margin: -10px 10px -10px 0px;
+}
+.contact{
+width: 250px;
+background: darkblue;
+border-radius: 96px;
+}
+.contact img{
+width: 37px;
+border-radius: 30px;
+float: left;
+margin: 0px 0px 0px 0px;
+}
+.contact span{
+font-size: 13px;
+color: aqua;
+margin: 0px 0px 0px 10px;
+}
+.contact p{
+font-size: 15px;
+color: white;
+margin: -15px 0px 0px 20px;    
+}
+.dropdown{
+position: relative;
+display: inline-block;
+}
+.dropdown:hover{
+cursor: pointer;
+}
+.dropdownn-content{
+display: none;
+position: absolute;
+width: 177px;
+overflow: hidden;
+padding: 10px 0px;
+background: white;
+text-align: center;
+box-sizing: border-box;
+margin: 0px 0px 0px -15px;
+}
+.dropdown:hover .dropdownn-content{
+display: block;
+}
+.naira img{
+width: 25px;
+}
+.naira span{
+    color: white;
+}
+.account img{
+width: 25px;
+}
+.account span{
+    color: white;
+}
+.form0 input[type="button"]{
+background: rgb(50, 179, 230);
+font-size: 20px;
+color: white;
+padding: 3px;
+width: 150px;
+border: none;
+border-radius: 3px;
+}
+.form0 input[type="button"]:hover{
+cursor: pointer;
+background: dodgerblue;
+}
+.dropdown1{
+position: relative;
+display: inline-block;
+}
+.dropdown1:hover{
+cursor: pointer;
+}
+.dropdown-content1{
+display: none;
+position: absolute;
+width: 177px;
+/* overflow: hidden; */
+padding: 10px 0px;
+background: red;
+text-align: center;
+box-sizing: border-box;
+margin: 10px 0px 0px -15px;
+}
+.dropdown-content1 p,form{
+padding: 0px 0px 10px 0px;
+}
+.dropdown-content1 :hover {
+color: rgb(50, 179, 230);
+}
+.dropdown1:hover .dropdown-content1 {
+display: block;
+}
+.banner-img{
+position: relative;
+/* overflow: hidden; */
+}
+.banner-img img{
+width: 100%;
+height: 300px;
+background-size: 100% 100%;
+/* position: relative;
+overflow: auto; */
+} 
+ .overlay1{
+    position: absolute;
+    background: rgba(70, 70, 70, 0.5);
+    height: 300px;
+    width: 100%;
+    margin-top: -305px;
+    
+}
+.banner-text{
+    position: absolute;
+    top: 170px;
+    right: 400px;
+    color: white;
+}
+.banner-text h5{
+    font-size: 40px;
+    text-align: center;
+}
+.banner-text h6{
+    font-size: 20px;
+    text-align: center;
+}
+.form{
+    background: white;
+    padding: 35px 30px 30px 30px;
+    width: 75%;
+    text-align: center;
+    margin: -50px 0px 0px 170px;
+    position: absolute;
+    box-shadow: 0px 0px 6px gray;
+}
+.form input[type="text"]{
+    width: 180px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0px 30px;
+         
+}
+.form input[type="email"]{
+    width: 350px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0px 0px 0px 30px;
+    margin: 0px 0px 0px -10px; 
+}
+.form input[type="submit"]{
+    height: 43px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(50, 179, 230);
+    color: white;
+}
+input[type="submit"]:hover{
+    background: dodgerblue;
+    cursor: pointer;
+}
+.heading{
+    margin: 110px 0px 0px 0px;
+    text-align: center;
+}
+.heading h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #262626;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.heading h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #4d4d4d;
+}
+hr{
+    width: 40px;
+    height: 3px;
+    background: rgb(50, 179, 230);
+    border: 0 none;
+    margin-left: 650px;
+    margin-bottom: 30px;
+}
+.flex1{
+    display: flex;
+    padding-left: 120px;   
+}
+.flex1-one ,.flex1-two ,.flex1-three,.flex1-four,.flex1-five,.flex1-six{
+    width: 13%;
+    margin: 0px 0px 0px 20px;
+    border: 2px solid rgb(50, 179, 230);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0px;
+    color:dodgerblue;
+}
+.flex1 h1{
+    font-size: 15px;  
+    color: #4d4d4d;  
+}
+.flex1-one:hover,.flex1-two:hover ,.flex1-three:hover,.flex1-four:hover,.flex1-five:hover,.flex1-six:hover{
+    background: dodgerblue;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+.flex1-one h2,.flex1-two h2,.flex1-three h2,.flex1-four h2,.flex1-five h2,.flex1-six h2{
+    text-transform: capitalize;
+    padding: 0px 0px 15px 0px;
+    font-size: 20px; 
+}
+.overlay img{
+    width: 320px;
+    height: 200px;
+    position: relative;
+}
+.absolute{
+    background: rgb(216, 89, 43);
+    width: 120px;
+    padding: 5px;
+    position: absolute;
+    margin: -180px 0px 0px -10px;
+    color: white;
+}
+.flex2{
+    display: flex;
+    margin:0px 0px 0px 140px;
+}
+.flex2-one{
+    border: 1px solid rgb(206, 199, 199);
+    width: 321px;
+    margin: 0px 0px 0px 30px;  
+    border-radius: 5px; 
+}
+.downlay p{
+    color: dodgerblue;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px 0px 10px;
+}
+.downlay span{
+    color: #4d4d4d;
+    font-size: 13px;
+    margin: 0px 0px 0px 0px
+}
+.flex3,.flex3b{
+    display: flex;
+    margin:60px 0px 25px 140px;
+}
+.flex3-1{
+    margin: 0px 0px 0px 30px;  
+    border-radius: 5px; 
+}
+.overlay2 img{
+    width: 320px;
+    position: relative;
+}
+.overbar{
+    background: rgba(0,0,0,.5);
+    width: 320px;
+    height: 255px;
+    margin-top: -260px;
+    position: absolute;
+}
+.overbar b{
+    color: white;
+    text-transform: capitalize;
+    font-size:25px;
+    margin:  80px 0px 0px 115px;
+    position: absolute;
+}
+.overbar span{
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    margin: 120px 0px 0px 100px;
+}
+.button{
+    display: inline;
+}
+.button input[type="button"]{
+    width: 200px;
+    background-color: transparent;  
+    position: absolute;
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 15px 0px 0px 60px; 
+    
+}
+.button input[type="button"]:hover{
+    background: dodgerblue;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    width: 320px;
+    height: 70px;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    margin: -75px 0px 0px 0px; 
+}
+.flex3-1:hover .dropdown-content{
+    display: block;
+    animation: sun 0.2s ease-in-out;
+    transform-origin: bottom;
+
+}
+@keyframes sun{
+    0%{transform: scaleY(0);}
+    100%{transform: scaleY(1);}
+}
+.flex-state{
+    display: flex;
+    margin: 0px 0px 0px 150px;
+    width: 80%;
+}
+.state1{
+    margin: 5px 0px 15px 25px;
+    width: 25%;
+}
+.state1 span{
+    font-size: 15px;
+    color: #4d4d4d;
+}
+.state1 a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.content5{
+    background: rgb(248, 246, 246);
+    height: 200px;
+    margin: 50px 0px -40px 0px;
+    padding: 15px 0px;
+}
+.heading5 h3{
+    margin: -90px 0px 15px 0px;
+}
+.heading6{
+    margin-bottom: 10px;
+}
+.form3{
+    text-align: center;
+}
+.form3 input[type="email"]{
+    width: 300px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0px 0px 0px 30px;
+    margin: 0px 0px 0px -10px; 
+}
+.form3 input[type="submit"]{
+    height: 43px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(50, 179, 230);
+    color: white;
+}
+.form3 input[type="submit"]:hover{
+    background: dodgerblue;
+    cursor: pointer;
+}
+.flex4{
+    display: flex;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 60px 0px 0px 80px;
+    width: 75%;
+}
+.flex4-1{
+    margin: 0px 0px 0px 140px;
+}
+.flex4-1:hover{
+    text-shadow: 1px 1px 1px #4d4d4d;
+    cursor: pointer;
+}
+.heading7{
+    margin: 60px 0px 0px 0px;
+}
+
+.form5 input[type="submit"]{
+    height: 43px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(50, 179, 230);
+    color: white;
+}
+.form input[type="email"]{
+    width: 350px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0px 0px 0px 30px;
+    margin: 0px 0px 0px -10px; 
+}
+.form input[type="submit"]{
+    height: 43px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(50, 179, 230);
+    color: white;
+}
+input[type="submit"]:hover{
+    background: dodgerblue;
+    cursor: pointer;
+}
+.flex5{
+    margin: 200px 0px 0px 200px;
+    display: flex;
+}
+.img-aside{
+    margin: 0px 0px 0px 50px;
+}
+.img-aside h1{
+    color: dodgerblue;
+    font-size: 55px;
+    margin: 100px 0px 10px 0px;
+}
+.img-aside h3{
+    font-size: 35px;
+    margin: 0px 0px 10px 0px;
+    color: #353434;
+}
+.img-aside h4{
+    margin: 0px 0px 20px 0px;
+    color: #4d4d4d;
+    font-size: 15px;
+}
+.img-aside img{
+    width: 250px;
+}
+.form6 input[type="email"]{
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px 0px 0px 5px;
+}
+.form6 input[type="submit"]{
+    width: 150px;
+    margin:0px 0px 0px -5px;
+    border-radius: 0px 5px 5px 0px;
+    height: 40px;
+}
+.full-unlock{
+    background: rgb(3, 68, 133);
+    display: flex;
+    padding: 25px 0px 20px 230px;
+    margin: -5px 0px 30px 0px;
+}
+.white{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50px;
+}
+.text-unlock span{
+    color: rgb(50, 179, 230);
+    font-size: 15px;
+    padding: 0px 0px 0px 90px;
+}
+.form6 input[type="email"]{
+    width: 350px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 4px 0px 0px 4px;
+    padding: 0px 0px 0px 30px;
+    
+}
+.form6 input[type="submit"]{
+    height: 41px;
+    width: 120px;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    background: rgb(50, 179, 230);
+    color: white;
+    margin: 0px 0px 0px -5px;
+}
+.text-unlock p{
+    color: #fff;
+    font-size: 20px;
+    padding: 0px 20px 0px 40px;
+}
+.top-footer{
+    display: flex;
+    margin: 0px 0px 0px 150px;
+}
+.top-footer p{
+    text-transform: capitalize;
+    color: #a8a7a7;
+    border-bottom:1px solid #d3d1d1;
+    margin: 0px 0px 0px 30px;
+}
+
+.top-footer li,a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(50, 179, 230);
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 5px 0px 0px 0px;
+    
+}
+.footer1{
+    margin: 0px 70px 40px 0px;
+}
+.line{
+    background: #d3d1d1;
+    width: 78%;
+    height: 1px;
+    margin: 0px 0px 40px 160px;  
+}
+.bottom-footer{
+    display: flex;
+    color: #4d4d4d;
+    margin:0px 0px 100px 150px;
+    font-size: 15px;
+}
+.bottom1{
+    margin: 40px 40px 0px 0px;
+}
+.bottom1 img{
+    width: 65px;
+    margin: -5px 0px 0px 20px;  
+}
+.footer-img{
+    margin: -50px 0px 0px 80px;
+}
+.footer-social{
+    margin: -40px 0px 0px 180px;
+    transition: font-size 1s, transform 1s;
+}
+.footer-social a{
+    text-decoration: none; 
+    font-size: 40px;
+}
+.fab{
+    padding: 0px 0px 0px 15px;
+}
+.social1:hover{
+    color: rgb(82, 180, 82);
+    font-weight: bold;
+    font-size: 70px;
+    transition: ease-in-out 1s;
+    transform: rotate(360deg);
+}
+.social2:hover{
+    color: rgb(180, 82, 139);
+    font-weight: bold;
+    font-size: 70px;
+    transition: ease-in-out 1s;
+    transform: rotate(360deg);
+}
+.social3:hover{
+    color: rgb(50, 179, 230);
+    font-weight: bold;
+    font-size: 70px;
+    transition: ease-in-out 1s;
+    transform: rotate(360deg);
+}
